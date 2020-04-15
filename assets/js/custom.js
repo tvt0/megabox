@@ -1,5 +1,5 @@
 (function ($) {
-    
+
     // top 버튼 스크롤 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
@@ -91,6 +91,16 @@
     }
 
     tabMenu.find("ul > li > a").click(tabList).focus(tabList);
+
+    // sns 공유
+    $(".icon.s2").click(function (e) {
+        e.preventDefault();
+        window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600');
+    });
+    $(".icon.s1").click(function (e) {
+        e.preventDefault();
+        window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' + encodeURIComponent(document.URL) + '%20-%20' + encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=300, width=600');
+    });
 
 
 })(jQuery);
