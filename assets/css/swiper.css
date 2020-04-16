@@ -249,9 +249,3 @@ button.swiper-pagination-bullet {
     margin: 0 4px;
 }
 
-@media (max-width: 1024px) {
-
-    .swiper-button-prev,
-    .swiper-button-next {
-        top: 53%;
-    }

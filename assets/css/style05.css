@@ -274,19 +274,16 @@ body.modal_on {overflow: hidden;}
 }
 
 @media (max-width: 1024px){
+    body {padding-top: 53px;}
     #header {position: fixed; left: 0; top: 0; z-index: 9999;}
     #mNav {display: block;}
     .nav {display: none;}
     .row {padding: 0 24px;}
     .header h1 {float: none; text-align: center;}
     .header h1 strong {left: 24px;}
-    .banner_menu {top: 70px;}
     .banner_menu .bn_left ul {display: none;}
     .banner_menu .bn_right ul:first-child {display: none;}
-    .slider .swiper-slide h2 {margin-top: 218px;}
-    .slider .ss1 {background: url(../img/swiper01.jpg) no-repeat center bottom; background-size: 1550px;}
-    .slider .ss2 {background: url(../img/swiper02.jpg) no-repeat center bottom; background-size: 1550px;}
-    .slider .ss3 {background: url(../img/swiper03.jpg) no-repeat center bottom; background-size: 1550px;}
+    .slider .swiper-slide h2 {margin-top: 200px;}
     
     .help {padding-bottom: 100px;}
     .help article.help_box1 {width: 49%; margin-right: 2%;}
@@ -303,12 +300,9 @@ body.modal_on {overflow: hidden;}
 
 @media (max-width: 960px){
     .slider {height: 500px;}
-    .slider .swiper-slide h2 {margin-top: 198px; font-size: 40px; line-height: 45px;}
+    .slider .swiper-slide h2 {margin-top: 180px; font-size: 40px; line-height: 45px;}
     .slider .swiper-slide h2 em {font-size: 20px;}
     .slider .swiper-slide p {font-size: 20px;}
-    .slider .ss1 {background: url(../img/swiper01.jpg) no-repeat center bottom; background-size: 1250px;}
-    .slider .ss2 {background: url(../img/swiper02.jpg) no-repeat center bottom; background-size: 1250px;}
-    .slider .ss3 {background: url(../img/swiper03.jpg) no-repeat center bottom; background-size: 1250px;}
     
     .movie_title ul {width: auto;}
     .movie_title ul li {width: 25%; box-sizing: border-box;}
@@ -373,14 +367,11 @@ body.modal_on {overflow: hidden;}
     .header h1 {text-align: left;}
     .header h1 strong {display: none;}
     .slider {height: 400px;}
-    .slider .swiper-slide h2 {margin-top: 150px; padding-left: 20px; font-size: 46px;}
+    .slider .swiper-slide h2 {margin-top: 130px; padding-left: 20px; font-size: 46px;}
     .slider .swiper-slide h2 em {font-size: 24px;}
     .slider .swiper-slide p {font-size: 24px; padding-top: 20px; margin-left: 20px;}
-    .slider .ss1 {background: url(../img/swiper01.jpg) no-repeat center bottom; background-size: 960px;}
-    .slider .ss2 {background: url(../img/swiper02.jpg) no-repeat center bottom; background-size: 960px;}
-    .slider .ss3 {background: url(../img/swiper03.jpg) no-repeat center bottom; background-size: 960px;}
     .swiper-button-prev, .swiper-button-next {display: none;}
-    .banner_menu {top: 65px;}
+    .banner_menu {top: 16px;}
     .banner_menu .bn_right li.white a {font-size: 14px; padding: 4px 8px 5px 8px; color: #fff; background: rgba(0,0,0,0.6); border: 1px solid #fff;}
     .banner_menu .bn_right li.white a:hover {box-shadow: none;}
     .banner_menu .bn_right li.purple a {font-size: 14px; padding: 4px 8px 5px 8px; color: #fff; background: rgba(0,0,0,0.6); border: 1px solid #fff;}
@@ -446,12 +437,9 @@ body.modal_on {overflow: hidden;}
 
 @media (max-width: 480px){
     .slider {height: 300px;}
-    .slider .swiper-slide h2 {margin-top: 130px; padding-left: 10px; font-size: 36px; line-height: 38px;}
+    .slider .swiper-slide h2 {margin-top: 90px; padding-left: 10px; font-size: 36px; line-height: 38px;}
     .slider .swiper-slide h2 em {font-size: 18px;}
     .slider .swiper-slide p {font-size: 16px; padding-top: 15px; margin-left: 10px;}
-    .slider .ss1 {background: url(../img/swiper01.jpg) no-repeat center bottom; background-size: 690px;}
-    .slider .ss2 {background: url(../img/swiper02.jpg) no-repeat center bottom; background-size: 690px;}
-    .slider .ss3 {background: url(../img/swiper03.jpg) no-repeat center bottom; background-size: 690px;}
     
     .movie_title ul li a {margin-right: 14px;}
     .movie_title ul li:last-child a {margin-right: 0;}
